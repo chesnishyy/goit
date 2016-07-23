@@ -1,3 +1,9 @@
+@font-face {
+   font-family: MyriadPro ; /* Имя шрифта */
+   src: url(../fonts/MyriadProRegular.ttf); /* Путь к файлу со шрифтом */
+  }
+
+
 html {
     margin: 0px;
     padding: 0px;
@@ -10,27 +16,59 @@ body {
 
 h1 {
     text-align: center;
+    font-family: Arial;
+    font-size: 36px;
+    line-height: 1.2;
+}
+
+h2 {
+    line-height: 1.2;
+    color: rgb(31, 31, 31);
+    font-family: MyriadPro;
+    font-size: 18px;
+    font-weight: bold;
 }
 
 div p {
-    margin-left: 45px;
+    margin-left: 36px;
 }
 
-.imgcenter {
-    height: 200px;
-    width: 200px;
+.img {
+    height: 202px;
+    width: 202px;
     margin-left: 412px;
+    border: 1px solid rgb(143, 143, 143);
 }
 
 hr {
     margin-left: 262px;
     margin-right: 262px;
+    width: 500px;
+    height: 1px;
+    color: rgb(31, 31, 31);
+
 }
 
 div {
-    margin-left: 264px;
+    margin-left: 262px;
+    font-family: MyriadPro;
 }
 
 .student {
-    margin-left: 0px;
+    margin-left: 1px;
+    font-size: 14px;
+    color: rgba(31, 31, 31, 0.8);
+    line-height: 1.2;
+    font-family: Arial;
+}
+
+ul {
+
+  font-family: MyriadPro;
+}
+p {
+  font-family: MyriadPro;
+}
+a {
+  color: blue;
 }
