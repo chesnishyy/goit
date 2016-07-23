@@ -21,12 +21,12 @@ h1 {
     line-height: 1.2;
 }
 
-h2 {
+.h2 {
     line-height: 1.2;
     color: rgb(31, 31, 31);
     font-family: MyriadPro;
     font-size: 18px;
-    font-weight: bold;
+    font-weight: bolder;
 }
 
 div p {
@@ -36,39 +36,47 @@ div p {
 .img {
     height: 202px;
     width: 202px;
-    margin-left: 412px;
+    margin-left: 410px;
+    margin-top: -4px;
+
     border: 1px solid rgb(143, 143, 143);
 }
 
 hr {
-    margin-left: 262px;
-    margin-right: 262px;
+    margin-top: 20px;
     width: 500px;
     height: 1px;
     color: rgb(31, 31, 31);
 
 }
 
-div {
+.info, .want, .vk, .phone, .feedback {
     margin-left: 262px;
     font-family: MyriadPro;
 }
 
 .student {
-    margin-left: 1px;
+    margin-left: 2px;
     font-size: 14px;
     color: rgba(31, 31, 31, 0.8);
     line-height: 1.2;
     font-family: Arial;
 }
 
-ul {
-
+.list {
+  font-size: 14px;
   font-family: MyriadPro;
+  margin-top: 24px;
+  margin-left: -4px;
 }
 p {
   font-family: MyriadPro;
 }
 a {
   color: blue;
+}
+
+.feedback p {
+  font-size: 14px;
+  margin-top: 20px;
 }
