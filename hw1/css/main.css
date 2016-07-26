@@ -1,12 +1,12 @@
 @font-face {
-   font-family: MyriadPro ; /* Имя шрифта */
-   src: url(../fonts/MyriadProRegular.ttf); /* Путь к файлу со шрифтом */
+    font-family: MyriadPro; /* Имя шрифта */
+    src: url('../fonts/MyriadProRegular.ttf'); /* Путь к файлу со шрифтом */
   }
 
 
 html {
-    margin: 0px;
-    padding: 0px;
+    margin: 0;
+    padding: 0;
 }
 
 body {
@@ -15,18 +15,18 @@ body {
 }
 
 h1 {
-    text-align: center;
     font-family: Arial;
     font-size: 36px;
     line-height: 1.2;
+    text-align: center;
 }
 
 .h2 {
-    line-height: 1.2;
     color: rgb(31, 31, 31);
     font-family: MyriadPro;
     font-size: 18px;
     font-weight: bolder;
+    line-height: 1.2;
 }
 
 div p {
@@ -34,49 +34,53 @@ div p {
 }
 
 .img {
-    height: 202px;
     width: 202px;
-    margin-left: 410px;
+    height: 202px;
     margin-top: -4px;
-
+    margin-left: 410px;
     border: 1px solid rgb(143, 143, 143);
 }
 
 hr {
-    margin-top: 20px;
     width: 500px;
     height: 1px;
+    margin-top: 20px;
     color: rgb(31, 31, 31);
-
 }
 
-.info, .want, .vk, .phone, .feedback {
+.info,
+.want,
+.vk,
+.phone,
+.feedback {
     margin-left: 262px;
     font-family: MyriadPro;
 }
 
 .student {
     margin-left: 2px;
-    font-size: 14px;
-    color: rgba(31, 31, 31, 0.8);
-    line-height: 1.2;
+    color: rgba(31, 31, 31, .8);
     font-family: Arial;
+    font-size: 14px;
+    line-height: 1.2;
 }
 
 .list {
-  font-size: 14px;
-  font-family: MyriadPro;
-  margin-top: 24px;
-  margin-left: -4px;
+    margin-top: 24px;
+    margin-left: -4px;
+    font-family: MyriadPro;
+    font-size: 14px;
 }
+
 p {
-  font-family: MyriadPro;
+    font-family: MyriadPro;
 }
+
 a {
-  color: blue;
+    color: #00f;
 }
 
 .feedback p {
-  font-size: 14px;
-  margin-top: 20px;
+    margin-top: 20px;
+    font-size: 14px;
 }
