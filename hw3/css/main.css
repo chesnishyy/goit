@@ -1,94 +1,102 @@
 body {
-  width: 1366px;
-  height: 950px;
-
-
+    width: 1366px;
+    height: 950px;
 }
 
 .center {
-  border-left: 1px solid grey;
-  border-right: 1px solid grey;
-  width: 1012px;
-  height: 950px;
-  margin-left: 153px;
-  padding-left: 46px;
+    width: 1013px;
+    height: 950px;
+    margin-left: 153px;
+    padding-left: 46px;
+    border-right: 1px solid grey;
+    border-left: 1px solid grey;
 }
 
 .logo {
-  margin-top: 51px;
+    margin-top: 51px;
 }
 
 .navbar1 {
-    background-color: #4f4f4f;
-    height: 40px;
     width: 966px;
-    margin-top: 38px;
+    height: 40px;
+    margin-top: 37px;
+    background-color: #4f4f4f;
+    font-size: 15px;
     line-height: 40px;
-
-
-  }
+}
 
 .navbar1 a {
-  color: white;
-  text-decoration: none;
-  padding-left: 25px;
-  padding-right: 25px;
+    display: inline-block;
+    padding-right: 25px;
+    padding-left: 26px;
+    color: white;
+    text-decoration: none;
+}
 
-
+.navbar1 a:hover {
+    border-right: 1px solid #838383;
+    border-left: 1px solid #838383;
+    background-color: #323232;
 }
 
 .navbar2 {
-  display: block;
-  margin-top: 40px;
-  padding: 0;
-  width: 240px;
-  float: left;
-
+    display: block;
+    width: 240px;
+    margin-top: 40px;
+    padding: 0;
+    float: left;
 }
 
 .navbar2 li {
-  border: 1px solid grey;
-  list-style-type: none;
-  padding-left: 23px;
-  height: 38px;
-  display: block;
-  line-height: 38px;
+    display: block;
+    height: 38px;
+    padding-left: 23px;
+    border: 1px solid grey;
+    font-size: 14px;
+    line-height: 38px;
+    list-style-type: none;
+}
 
+.navbar2 li:hover {
+    padding-left: 28px;
+    font-weight: bolder;
 }
 
 .mainimg {
-  border: 1px solid grey;
-  margin-top: 40px;
-  margin-left: 40px;
-  margin-bottom: 20px;
-  padding: 50px 90px;
-  display: inline-block;
+    display: inline-block;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    margin-left: 48px;
+    padding: 45px 88px;
+    border: 1px solid grey;
 }
 
 .paragraph {
-  margin-left: 312px;
-  margin-right: 60px;
-  margin-bottom: 50px;
-  font-size: 14px;
+    margin-right: 60px;
+    margin-bottom: 50px;
+    margin-left: 312px;
+    font-size: 14px;
+    line-height: 21px;
 }
 
 footer {
-    background-color: #e1e1e1;
-    height: 40px;
-    line-height: 40px;
     width: 966px;
+    height: 40px;
     margin-bottom: 60px;
-  }
+    background-color: #e1e1e1;
+    font-size: 13px;
+    line-height: 40px;
+}
 
 footer a {
-  text-decoration: none;
-  color: black;
-  padding-left: 24px;
-  padding-right: 26px;
+    padding-right: 26px;
+    padding-left: 24px;
+    color: black;
+    text-decoration: none;
 }
 
 span {
-  display: inline-block;
-  float: right;
-  margin-right: 25px;
+    display: inline-block;
+    margin-right: 25px;
+    float: right;
 }
