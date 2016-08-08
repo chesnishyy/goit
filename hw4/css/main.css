@@ -97,6 +97,30 @@
 
 /*main menu BEGIN*/
 
+.white-triangle1 {
+    margin-right: 0;
+    padding: 0;
+    position: relative;
+    top: -26px;
+    left: 118px;
+}
+
+.white-triangle2 {
+    margin-right: 0;
+    padding: 0;
+    position: relative;
+    top: -26px;
+    left: 68px;
+}
+
+.white-triangle3 {
+    margin-right: 0;
+    padding: 0;
+    position: relative;
+    top: -26px;
+    left: 100px;
+}
+
 .menu {
     height: 30px;
     margin: 0;
