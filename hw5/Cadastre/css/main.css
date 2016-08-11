@@ -104,5 +104,20 @@ h1 {
 .input{
     height: 35px;
     width: 276px;
+    color: #fff;
+    background-color: #000;
+}
 
+.input:focus {
+    background-color: #1b5288;
+}
+
+.form div {
+    margin-bottom: 20px;
+}
+
+.submit-button {
+    padding: 10px;
+    color: #fff;
+    background-color: #48a3d7;
 }
