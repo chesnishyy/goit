@@ -11,6 +11,7 @@
     background-image: url('../img/background.jpg');
     width: 1210px;
     height: 1024px;
+    font-family: 'Helvetica Neue';
 }
 
 .nav {
@@ -24,12 +25,6 @@
 .nav li {
     margin: 0;
 }
-
-/*
-.nav li:hover {
-    background-color: #2f7bc5;
-}
-*/
 
 .nav li a:hover {
     color: #fff;
@@ -112,6 +107,7 @@ h1 {
     width: 272px;
     color: #fff;
     background-color: #000;
+    border: none;
 }
 
 .input:focus {
@@ -126,8 +122,20 @@ h1 {
     padding: 10px;
     color: #fff;
     background-color: #48a3d7;
+    border: none;
+    border-radius: 3px;
 }
 
 .form div label {
     color: #fff;
+    font-size: 14px;
+    width: 272px;
+}
+
+.form div span {
+    color: #fff;
+    font-size: 11px;
+    display: block;
+    width: 310px;
+    text-align: center;
 }
