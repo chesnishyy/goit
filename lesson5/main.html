@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>tables</title>
+    <style>
+        th,
+        td {
+            border: 1px solid #000;
+            text-align: center;
+        }
+
+        table {
+            border-collapse: collapse;
+        }
+
+        a {
+            font-weight: bold;
+            text-decoration: underline;
+
+            text-transform: uppercase;
+        }
+
+    </style>
+</head>
+<body>
+    <table cellpadding="20px" cellspacing="0">
+        <tr>
+            <th>Заголовок 1 </th>
+            <th>Заголовок 2</th>
+            <th>Заголовок 3</th>
+            <th>Заголовок 4</th>
+            <th>Заголовок 5</th>
+        </tr>
+        <tr>
+            <td colspan="2">Ячейка 1</td>
+            <td rowspan="2">Ячейка 3</td>
+            <td>Ячейка 4</td>
+            <td>Ячейка 5</td>
+        </tr>
+
+        <tr>
+            <td><a href="">Ячейка 6</a></td>
+            <td>Ячейка 7</td>
+
+            <td>Ячейка 9</td>
+            <td>Ячейка 10</td>
+        </tr>
+
+    </table>
+
+</body>
+</html>
