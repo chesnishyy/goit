@@ -5,9 +5,11 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    font-family: 'Lucida Sans Unicode';
 }
 
 .header-wrapper {
+    width: 909px;
     display: flex;
     margin-top: 18px;
     margin-bottom: 5px;
@@ -22,10 +24,11 @@
 }
 
 .phone-number {
-    margin-left: 5px;
+    margin-left: 3px;
     line-height: 23px;
     color: #5e696d;
-    font-size: 20px;
+    font-size: 19px;
+    font-family: Arial;
 }
 
 .auth {
@@ -33,7 +36,7 @@
     height: 25px;
     display: flex;
     align-items: center;
-    margin-left: 17px;
+    margin-left: 15px;
     border-radius: 3px;
     background: #1f6787;
     background: -moz-linear-gradient(top,  #1f6787 0%, #1c5e7f 17%, #13466a 50%, #0f3c61 71%, #0c3357 100%);
@@ -55,14 +58,14 @@
 #auth a {
     color: #fff;
     text-decoration: none;
-    font-size: 13px;
+    font-size: 11px;
 }
 
 #auth span {
     color: #bfbfbf;
     text-decoration: underline;
     margin-left: 20px;
-    font-size: 13px;
+    font-size: 11px;
 }
 
 .auth-img {
@@ -88,11 +91,10 @@
 }
 
 .main ul {
-    width: 809px;
+    width: 909px;
     height: 34px;
     display: flex;
     align-items: center;
-    padding-left: 100px;
     border-radius: 4px;
     line-height: 35px;
     background: #646673;
@@ -104,6 +106,10 @@
     -moz-box-shadow: 6px 6px 12px 0px rgba(140,140,140,1);
     box-shadow: 6px 6px 12px 0px rgba(140,140,140,1);
 
+}
+
+.main ul li:first-child {
+    margin-left: 132px;
 }
 
 .main ul li {
@@ -129,8 +135,119 @@
     font-size: 13px;
 }
 
+.main ul p{
+    color: #929b9f;
+    margin-left: 10px;
+    font-size: 11px;
+}
+
+.main ul p span {
+    margin-left: 3px;
+    color: #0d5a8f;
+}
+
 .basket-img {
     width: 21px;
     height: 17px;
-    margin-left: 100px;
+    margin-left: 55px;
+}
+
+.products {
+    display: flex;
+    width: 526px;
+    height: 626px;
+    margin-top: 25px;
+    border-radius: 3px;
+    background: #e5e7e8;
+    background: -moz-linear-gradient(top,  #e5e7e8 0%, #dbe0e2 14%, #bac6cb 44%, #9badb5 83%, #93a7b0 100%, #a7b6bd 100%);
+    background: -webkit-linear-gradient(top,  #e5e7e8 0%,#dbe0e2 14%,#bac6cb 44%,#9badb5 83%,#93a7b0 100%,#a7b6bd 100%);
+    background: linear-gradient(to bottom,  #e5e7e8 0%,#dbe0e2 14%,#bac6cb 44%,#9badb5 83%,#93a7b0 100%,#a7b6bd 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e5e7e8', endColorstr='#a7b6bd',GradientType=0 );
+}
+
+.brands {
+    display: flex;
+    align-items: center;
+    margin-top: 25px;
+}
+
+.brands img {
+    margin: 7px;
+}
+
+.goodyear .pictures {
+    width: 136px;
+    height: 127px;
+    background: #fff url('../img/goodyear.png') no-repeat center;
+    border: 1px solid #a7b1b4;
+    border-radius: 10px;
+}
+
+.goodyear {
+    margin-left: 27px;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+}
+
+.nokian .pictures {
+    width: 136px;
+    height: 127px;
+    background: #fff url('../img/nokian.png') no-repeat center;
+    border: 1px solid #a7b1b4;
+    border-radius: 10px;
+}
+
+.nokian {
+    margin-left: 30px;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+}
+
+.hankook .pictures {
+    width: 136px;
+    height: 127px;
+    background: #fff url('../img/hankook.png') no-repeat center;
+    border: 1px solid #a7b1b4;
+    border-radius: 10px;
+}
+
+.hankook {
+    margin-left: 30px;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+}
+
+
+.brand {
+    margin-top: 15px;
+    color: #206988;
+}
+
+.name {
+    font-size: 13px;
+}
+
+.price {
+    margin-top: 3px;
+    margin-bottom: 10px;
+    font-family: Arial;
+    font-size: 17px;
+    font-weight: bold;
+    font-style: italic;
+    color: #114165;
+}
+
+.price span {
+    font-size: 12px;
+}
+
+main {
+    display: flex;
+}
+
+.as-left {
+    margin-top: 25px;
 }
