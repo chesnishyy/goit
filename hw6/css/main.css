@@ -446,3 +446,114 @@ footer span {
     border: 1px solid #b3b3b4;
     border-radius: 15px;
 }
+
+.season {
+    display: flex;
+}
+
+.season-checkbox {
+    display: flex;
+    flex-flow: column wrap;
+}
+
+.search-tire-search {
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+.search-car-search {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.search-car-selects {
+    display: flex;
+    font-size: 12px;
+}
+
+.search-car-header {
+    display: flex;
+}
+
+.car-model {
+    display: flex;
+}
+
+.car-model span {
+    display: flex;
+    flex-flow: column wrap;
+}
+.car-year {
+    display: flex;
+}
+
+.car-year span {
+    display: flex;
+    flex-flow: column wrap;
+}
+
+.car-model select {
+    height: 19px;
+    width: 100px;
+}
+
+.car-year select {
+    height: 19px;
+    width: 57px;
+}
+
+.car-brand select {
+    width: 100px;
+}
+
+.car-complex select {
+    width: 100px;
+}
+
+.search-car-disk {
+    margin-left: 15px;
+}
+
+.search-car-tire {
+    margin-left: 15px;
+}
+
+.search-disk {
+    display: flex;
+    font-size: 12px;
+}
+
+.search-disk-border {
+    width: 1px;
+    height: 105px;
+    margin-top: 5px;
+    margin-left: 10px;
+    background-color: #bdc6ca;
+}
+
+.search-disk-1-2 {
+    display: flex;
+}
+
+.search-disk-1-2 select{
+    height: 19px;
+}
+
+.search-disk-1-2 span {
+    display: flex;
+    flex-flow: column wrap;
+}
+
+.search-disk-1-3 {
+    display: flex;
+}
+
+.search-disk-1-3 span {
+    display: flex;
+    flex-flow: column wrap;
+}
+
+.search-disk-1-3 select{
+    height: 19px;
+}
