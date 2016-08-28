@@ -426,16 +426,60 @@ footer span {
     margin-top: 12px;
     margin-left: 3px;
     border: 1px solid #b3b3b4;
-    border-radius: 15px;
+    border-radius: 17px;
 }
 
 .search-tire {
     width: 191px;
-    height: 132px;
+    height: 135px;
     margin-top: 12px;
     margin-left: 14px;
     border: 1px solid #b3b3b4;
     border-radius: 15px;
+}
+
+.search-tire h2 {
+    margin-top: 2px;
+    margin-left: 10px;
+    font-size: 12px;
+    font-family: Arial;
+    font-weight: 900;
+    color: rgb(21, 68, 104);
+}
+
+.size {
+    margin-top: 6px;
+    margin-left: 13px;
+    font-size: 10px;
+    font-family: Arial;
+}
+
+#size-1 {
+    width: 52px;
+    margin-top: 2px;
+    margin-left: 5px;
+    font-size: 10px;
+}
+
+#size-2 {
+    width: 52px;
+    margin-top: 2px;
+    margin-left: 2px;
+    font-size: 10px;
+}
+
+.r {
+    margin-top: 10px;
+    margin-left: 45px;
+    font-family: Arial;
+    font-size: 10px;
+
+}
+
+.r select {
+    width: 45px;
+    margin-left: 3px;
+    font-size: 10px;
 }
 
 .search-disk {
@@ -449,22 +493,60 @@ footer span {
 
 .season {
     display: flex;
+    margin-top: 6px;
+    margin-left: 13px;
+    font-family: Arial;
+    font-size: 10px;
+}
+
+.season span {
+    display: block;
+    margin-top: 6px;
 }
 
 .season-checkbox {
     display: flex;
     flex-flow: column wrap;
+    margin-left: 9px;
+}
+
+.season-checkbox div {
+    display: flex;
+    margin-top: 3px;
+    height: 12px;
+}
+
+.season-checkbox label {
+    line-height: 18px;
 }
 
 .search-tire-search {
     display: flex;
     justify-content: flex-end;
+    margin-right: 20px;
+    margin-top: 1px;
+}
+
+.search-tire-search a {
+    color: #154467;
+    font-family: Arial;
+    font-style: italic;
+    font-size: 13px;
 }
 
 
 .search-car-search {
     display: flex;
     justify-content: flex-end;
+    margin-right: 20px;
+    margin-top: 6px;
+}
+
+.search-car-search a {
+    color: #154467;
+    font-family: Arial;
+    font-style: italic;
+    font-size: 13px;
 }
 
 .search-car-selects {
@@ -474,18 +556,50 @@ footer span {
 
 .search-car-header {
     display: flex;
+    margin-left: 20px;
+    font-size: 10px;
+    font-family: "Arial";
+    color: rgb(21, 68, 104);
+    font-weight: 900;
+}
+
+.search-car-header span {
+    margin-top: 5px;
+}
+
+.search-car-header h2 {
+    font-size: 12px;
+    margin-left: 68px;
+    margin-right: 80px;
 }
 
 .car-model {
     display: flex;
+    margin-top: 4px;
+    font-size: 10px;
 }
 
 .car-model span {
     display: flex;
     flex-flow: column wrap;
 }
+
+.car-model span span{
+    font-size: 8px;
+    color: #77858b;
+}
+
+.car-model select {
+    height: 19px;
+    width: 100px;
+    margin-left: 28px;
+}
+
+
 .car-year {
     display: flex;
+    margin-top: 4px;
+    font-size: 10px;
 }
 
 .car-year span {
@@ -493,51 +607,88 @@ footer span {
     flex-flow: column wrap;
 }
 
-.car-model select {
-    height: 19px;
-    width: 100px;
+.car-year span span{
+    font-size: 8px;
+    color: #77858b;
 }
+
 
 .car-year select {
     height: 19px;
     width: 57px;
+    margin-left: 16px;
+}
+
+.car-brand {
+    margin-top: 4px;
+    font-size: 10px;
+}
+
+.car-brand span span{
+    font-size: 8px;
+    color: #77858b;
 }
 
 .car-brand select {
     width: 100px;
+    margin-left: 19px;
+}
+
+.car-complex {
+    font-size: 10px;
+    margin-top: 4px;
 }
 
 .car-complex select {
-    width: 100px;
+    width: 102px;
+
 }
 
 .search-car-disk {
-    margin-left: 15px;
+    margin-left: 17px;
 }
 
 .search-car-tire {
-    margin-left: 15px;
+    margin-left: 25px;
 }
 
-.search-disk {
+.search-disk-main {
     display: flex;
-    font-size: 12px;
+    font-size: 10px;
+
 }
 
 .search-disk-border {
     width: 1px;
     height: 105px;
     margin-top: 5px;
-    margin-left: 10px;
+    margin-right: 10px;
+    margin-left: 12px;
     background-color: #bdc6ca;
+}
+
+.search-disk-1-header {
+    margin-top: 2px;
+    margin-left: 10px;
+    font-size: 12px;
+    font-family: Arial;
+    font-weight: 900;
+    color: rgb(21, 68, 104);
 }
 
 .search-disk-1-2 {
     display: flex;
+    margin-top: 5px;
+    margin-left: 15px;
+    font-size: 10px;
 }
 
 .search-disk-1-2 select{
-    height: 19px;
+    width: 50px;
+    height: 17px;
+    margin-top: 5px;
+    margin-left: 35px;
+    font-size: 12px;
 }
 
 .search-disk-1-2 span {
@@ -545,8 +696,16 @@ footer span {
     flex-flow: column wrap;
 }
 
+.search-disk-1-2 span span{
+    font-size: 8px;
+    color: #77858b;
+}
+
 .search-disk-1-3 {
     display: flex;
+    margin-top: 5px;
+    margin-left: 15px;
+    font-size: 10px;
 }
 
 .search-disk-1-3 span {
@@ -554,6 +713,87 @@ footer span {
     flex-flow: column wrap;
 }
 
+.search-disk-1-3 span span{
+    font-size: 8px;
+    color: #77858b;
+}
+
 .search-disk-1-3 select{
-    height: 19px;
+    width: 58px;
+    height: 17px;
+    margin-top: 10px;
+    margin-left: 34px;
+    font-size: 12px;
+}
+
+.search-disk-2 {
+    margin-top: 5px;
+}
+
+.search-disk-2 span {
+    display: flex;
+    flex-flow: column wrap;
+}
+
+.search-disk-search {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 20px;
+    margin-top: 2px;
+}
+
+
+.search-disk-search a {
+    color: #154467;
+    font-family: Arial;
+    font-style: italic;
+    font-size: 13px;
+}
+
+
+
+.disk-diameter {
+    margin-top: 4px;
+    margin-left: 15px;
+    font-size: 10px;
+}
+
+.disk-diameter select {
+    width: 57px;
+    height: 17px;
+    margin-left: 16px;
+    font-size: 12px;
+}
+
+.disk-diameter span span {
+    font-size: 8px;
+    color: #77858b;
+}
+
+.search-disk-2-1 {
+    margin-top: 1px;
+    margin-left: 1px;
+    font-size: 10px;
+}
+
+.search-disk-2-1 select,
+.search-disk-2-2 select {
+    width: 58px;
+    margin-top: 5px;
+}
+
+.search-disk-2-1 span span{
+    font-size: 8px;
+    color: #77858b;
+}
+
+.search-disk-2-2 {
+    margin-top: 5px;
+    margin-left: 1px;
+    font-size: 10px;
+}
+
+.search-disk-2-2 span span {
+    font-size: 8px;
+    color: #77858b;
 }
