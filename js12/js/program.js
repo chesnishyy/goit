@@ -8,12 +8,17 @@ for (var i = 0; i < 5; i++) {
 }
 
 var userName = prompt('Введите имя пользователя');
+var flag;
 
-for (var i = 0; i < 5; i++) {
+for (var i = 0; i < arrName.length; i++) {
     if (arrName[i] == userName) {
-        alert(userName + ', вы успешно вошли');
+         flag = true;
     }
-    else {
-        alert('Имя пользователя указано не верно');
-    }
+}
+
+if (flag == true) {
+    alert(userName + ', вы успешно вошли');
+}
+else {
+    alert('Имя пользователя указано не верно');
 }
