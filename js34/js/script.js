@@ -1,43 +1,54 @@
+/**
+ * Created by agent on 25.09.2016.
+ */
 var test = {
-    createTest: function () {
+    createHeader: function () {
+        var header = document.createElement('h1');
+        header.innerHTML = 'Тест по программированию';
+        header.style.display = 'flex';
+        header.style.justifyContent = 'center';
+        document.body.appendChild(header);
+    },
+    createQuestions: function (questionsCount, variantsCount) {
 
-        var wrapper = document.createElement('div');
-        wrapper.setAttribute('class', 'wrapper');
-       // wrapper.style.display = 'flex';
-        //wrapper.style.flexFlow = 'column wrap';
-        //wrapper.style.alignItems = 'center';
-        document.body.insertBefore(wrapper, document.body.children[0]);
+        for (var i = 0; i < questionsCount; i++){
+            var question = document.createElement('div');
+            question.setAttribute('class', 'question' + +(i+1));
+            document.body.appendChild(question);
+            var span = document.createElement('span');
+            span.innerHTML = +(i + 1) +'. ' + 'Вопрос №' + +(i + 1);
+            question.appendChild(span);
+            for (var j = 0; j < variantsCount; j++) {
+                var variant = document.createElement('div');
+                //variant.setAttribute('class', 'checkbox' + +(j + 1));
+                variant.setAttribute('class', 'checkbox');
+                variant.style.display = 'flex';
+                question.appendChild(variant);
 
-        var h1 = document.createElement('h1');
-        h1.innerHTML = 'Тест по программированию';
-        wrapper.appendChild(h1);
+                var input = document.createElement('input');
+                input.setAttribute('type','checkbox');
+                input.setAttribute('id','checkbox' + j);
+                var label = document.createElement('label');
+                label.setAttribute('for', 'checkbox' + j);
+                label.innerHTML = 'Вариант ответа №' + +(j + 1);
+                variant.appendChild(input);
+                variant.appendChild(label);
+            }
+        }
 
-        var wrapperTest = document.createElement('div');
-        wrapperTest.style.display = 'flex';
-        wrapperTest.style.flexFlow = 'column wrap';
+    },
+    createButton: function () {
+        var button = document.createElement('button');
+        button.innerHTML = 'Проверить мои результаты';
+        button.style.display = 'flex';
+        button.style.justifyContent = 'center';
+        document.body.appendChild(button);
+    }
 
-        wrapper.appendChild(wrapperTest);
-
-
-        var span1 = document.createElement('span');
-        span1.innerHTML = '1. Вопрос №1';
-        wrapperTest.appendChild(span1);
-
-
-        var input = document.createElement('input');
-        input.setAttribute('type','checkbox');
-        wrapperTest.appendChild(input);
-        wrapperTest.appendChild(input);
-        wrapperTest.appendChild(input);
-
-        console.log(wrapper);
-
-        /*
-
-
-        document.body.appendChild(h1);
-        document.body.appendChild(input);*/
 }
-}
 
-test.createTest();
+test.createHeader();
+
+test.createQuestions(3, 3);
+
+test.createButton();
