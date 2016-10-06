@@ -71,6 +71,24 @@ $(function () {
         help3.addClass('hide');
     });
 
+    label1.click(function () {
+        help1.removeClass('hide');
+        help2.addClass('hide');
+        help3.addClass('hide');
+    });
+
+    label2.click(function () {
+        help2.removeClass('hide');
+        help1.addClass('hide');
+        help3.addClass('hide');
+    });
+
+    label3.click(function () {
+        help3.removeClass('hide');
+        help2.addClass('hide');
+        help1.addClass('hide');
+    });
+
     $('button').click(function () {
         help1.removeClass('hide');
         help2.removeClass('hide');
