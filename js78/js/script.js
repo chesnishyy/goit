@@ -37,17 +37,44 @@ $(function () {
         button3.addClass('active-tab');
     });
 
-    $('tabs').attr('scrollTop', 200);
 
     var label1 = $('fieldset div:first-child label');
     var input1 = $('#firstname');
+    var help1 = $('#help1');
 
     var label2 = $('fieldset div:nth-child(2) label');
     var input2 = $('#lastname');
+    var help2 = $('#help2');
 
     var label3 = $('fieldset div:nth-child(3) label');
     var input3 = $('#address');
-    console.log(title1);
+    var help3 = $('#help3');
 
+    input1.mouseover(function () {
+        help1.removeClass('hide');
+    });
+    input1.mouseout(function () {
+        help1.addClass('hide');
+    });
+
+    input2.mouseover(function () {
+        help2.removeClass('hide');
+    });
+    input2.mouseout(function () {
+        help2.addClass('hide');
+    });
+
+    input3.mouseover(function () {
+        help3.removeClass('hide');
+    });
+    input3.mouseout(function () {
+        help3.addClass('hide');
+    });
+
+    $('button').click(function () {
+        help1.removeClass('hide');
+        help2.removeClass('hide');
+        help3.removeClass('hide');
+    });
 
 });
