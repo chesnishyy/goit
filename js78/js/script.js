@@ -50,6 +50,15 @@ $(function () {
     var input3 = $('#address');
     var help3 = $('#help3');
 
+ /*
+
+    input1.mouseover(function () {
+        help1.toggle();
+    });
+    input1.mouseout(function () {
+        help1.toggle();
+    });*/
+
     input1.mouseover(function () {
         help1.removeClass('hide');
     });
@@ -94,5 +103,4 @@ $(function () {
         help2.removeClass('hide');
         help3.removeClass('hide');
     });
-
 });
