@@ -1,7 +1,14 @@
 (function($) {
     $(function() {
         $('.jcarousel').jcarousel({
-            wrap: 'circular'
+            wrap: 'circular',
+            animation: {
+                duration: 1000,
+                easing:   'easeOutBack',
+                complete: function() {
+                }
+            }
+
         });
 
         $('.jcarousel-control-prev')
