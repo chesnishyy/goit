@@ -11,25 +11,45 @@
 
     <div class="carousel-hider">
         <ul class="carousel-list">
-            <li class="carousel-element"><img src="img1.jpg"><p>Описание 1</p></li>
-            <li class="carousel-element"><img src="img2.jpg"><p>Описание 2</p></li>
-            <li class="carousel-element"><img src="img3.jpg"><p>Описание 3</p></li>
-            <li class="carousel-element"><img src="img4.jpg"><p>Описание 4</p></li>
-            <li class="carousel-element"><img src="img1.jpg"><p>Описание 5</p></li>
-            <li class="carousel-element"><img src="img2.jpg"><p>Описание 6</p></li>
-            <li class="carousel-element"><img src="img3.jpg"><p>Описание 7</p></li>
-            <li class="carousel-element"><img src="img4.jpg"><p>Описание 8</p></li>
-            <li class="carousel-element"><img src="img1.jpg"><p>Описание 9</p></li>
-            <li class="carousel-element"><img src="img2.jpg"><p>Описание 10</p></li>
-            <li class="carousel-element"><img src="img3.jpg"><p>Описание 11</p></li>
-            <li class="carousel-element"><img src="img4.jpg"><p>Описание 12</p></li>
+            <li class="carousel-element"><img src="img/img1.jpg"><p>Описание 1</p></li>
+            <li class="carousel-element"><img src="img/img6.jpg"><p>Описание 2</p></li>
+            <li class="carousel-element"><img src="img/img3.jpg"><p>Описание 3</p></li>
+            <li class="carousel-element"><img src="img/img4.jpg"><p>Описание 4</p></li>
+            <li class="carousel-element"><img src="img/img5.jpg"><p>Описание 5</p></li>
+            <li class="carousel-element"><img src="img/img6.jpg"><p>Описание 6</p></li>
+            <li class="carousel-element"><img src="img/img3.jpg"><p>Описание 7</p></li>
+            <li class="carousel-element"><img src="img/img4.jpg"><p>Описание 8</p></li>
+            <li class="carousel-element"><img src="img/img1.jpg"><p>Описание 9</p></li>
+            <li class="carousel-element"><img src="img/img6.jpg"><p>Описание 10</p></li>
+            <li class="carousel-element"><img src="img/img3.jpg"><p>Описание 11</p></li>
+            <li class="carousel-element"><img src="img/img4.jpg"><p>Описание 12</p></li>
         </ul>
     </div>
 
     <div class="carousel-arrow-right"><span>Вправо</span></div>
 
+    <div class="lodash-example">
+        <script type="text/template" id="menu-template">
+            <div class="menu">
+                <span class="title"><%-title%></span>
+            </div>
+        </script>
+
+        <script type="text/template" id="menu-list-template">
+            <ul>
+                <% items.forEach(function(item) { %>
+                <li><%-item%></li>
+                <% }); %>
+            </ul>
+        </script>
+    </div>
+
+
+
     <script src="js/jquery-3.1.1.min.js"></script>
     <script src="js/jquery.carousel.js"></script>
+    <script src="https://cdn.jsdelivr.net/lodash/4.16.6/lodash.min.js"></script>
     <script src="js/script.js"></script>
+
 </body>
 </html>

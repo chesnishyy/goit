@@ -42,3 +42,9 @@
 .carousel-arrow-right {
     margin-left: 25px;
 }
+
+.lodash-example {
+    clear: left;
+    display: flex;
+
+}
